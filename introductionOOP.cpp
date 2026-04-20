@@ -16,5 +16,8 @@ class mahasiswa{
 
 int main(){
     Mahasiswa mhs;
-    mhs.nim = 2022:
+    mhs.nim = 2022;
+    mhs.nilai = 90.5;
+
+    mhs.printata();
 }

@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+
+class barang{
+    public:
+       string nama;
+       int jumlah;
+       string kategori;
+       int tanggal_produksi;
+
+       void printData(){
+            cout << "nama : " << nama << endl;
+            cout << "jumlah : " << jumlah << endl;
+            cout << "kategori : " << kategori << endl;
+            cout "tanggal_produksi : " << tanggal_produksi << endl;
+       }
+};
+
+int main(){
+   
