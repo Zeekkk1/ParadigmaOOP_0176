@@ -6,14 +6,14 @@ class barang{
     public:
        string nama;
        int jumlah;
-       string kategori;
+       string kategori;git
        string tanggal_produksi;
 
        void printData(){
             cout << "nama : " << nama << endl;
             cout << "jumlah : " << jumlah << endl;
             cout << "kategori : " << kategori << endl;
-            cout "tanggal_produksi : " << tanggal_produksi << endl;
+            cout << "tanggal_produksi : " << tanggal_produksi << endl;
        }
 };
 
@@ -26,10 +26,15 @@ int main(){
     elektronik.kategori = "High end";
     elektronik.tanggal_produksi = "20 agustus 2022";
 
+
     nonElektronik.nama = "buku";
     nonElektronik.jumlah = 200;
-    nonelektronik.kategori = "filsafat";
-    nonElektronik
+    nonElektronik.kategori = "filsafat";
+    nonElektronik.tanggal_produksi = "20 juli 2022";
+
+    elektronik.printData();
+    nonElektronik.printData();
+
 }
 
 
