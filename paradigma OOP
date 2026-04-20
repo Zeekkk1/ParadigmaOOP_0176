@@ -19,7 +19,12 @@ class barang{
 
 int main(){
     barang elektronik;
-    
+    barang nonElektronik;
+
+    elektronik.nama = "laptop";
+    elektronik.jumlah = 20;
+    elektronik.kategori = "High end";
+    elektronik.tanggal_produksi
 }
 
 
